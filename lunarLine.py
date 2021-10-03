@@ -25,7 +25,7 @@ def main():
     print(file.read())
     file.close()
 
-    file = open(name + ".txt", "a")
+    file = open(name.lower() + ".txt", "a")
     file.write("\n")
     file.write("Your average distance between you and the moon is 238,900 mi (if you want km do it yourself)")
     file.close()
