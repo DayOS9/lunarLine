@@ -21,7 +21,7 @@ def main():
     file.close()
 
     #print diagram to terminal
-    file = open(name + ".txt", "r")
+    file = open(name.lower() + ".txt", "r")
     print(file.read())
     file.close()
 
