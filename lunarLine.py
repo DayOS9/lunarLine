@@ -39,142 +39,153 @@ def diagram(continent):
         return diagram
 
     if continent.lower() == "south america":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :                OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :     (X)     :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','                   `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
-    
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :                OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :     (X)     :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','                   `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
+
     if continent.lower() == "europe":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :       (X)      OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :            :      :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','                   `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
-    
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :       (X)      OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :             :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','                   `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
+
     if continent.lower() == "africa":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :                OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_     (X)    ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.     `.         :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.     `.       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :            :      :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','                   `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :                OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _    (X)   ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :             :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','                   `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
     
     if continent.lower() == "asia":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :                OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'   (X)   OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :            :      :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','                   `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :                OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'    (X)  OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :             :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','                   `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
     
     if continent.lower() == "australia":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :                OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :            :      :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :   (X)   OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','                   `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :                OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :             :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :   (X)   OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','                   `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
     
     if continent.lower() == "antarctica":
-        print("                   ooo OOO OOO ooo")
-        print("               oOO           _ _ _ OOo")
-        print("           oOO ' ' ,      ,-'          OOo")
-        print("        oOO         '.   :                OOo")
-        print("      oOO            ;  ,'  ,--.        .-' OOo")
-        print("    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,")
-        print("   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,")
-        print("  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,")
-        print(" oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,")
-        print(" oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,")
-        print(" oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,")
-        print(" oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,")
-        print(" oOO   :            :      :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,")
-        print("  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,")
-        print("   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '")
-        print("    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '")
-        print("      oOO`    ,'                     `.     OOo")
-        print("        oOO ,'    . - - - - - - - .    `. OOo")
-        print("           oOO','        (X)        `, OOo")
-        print("               oOO                 OOo")
-        print("                   ooo OOO OOO ooo")
+        a = "                   ooo OOO OOO ooo\n"
+        b = "               oOO           _ _ _ OOo\n"
+        c = "           oOO ' ' ,      ,-'          OOo\n"
+        d = "        oOO         '.   :                OOo\n"
+        e = "      oOO            ;  ,'  ,--.        .-' OOo\n"
+        f = "    oOO            ,'   `--'   `----. ,'      OOo                                      , - ~ ~ ~ - ,\n"
+        g = "   oOO       _ , '    ,-------.      `.        OOo                                 , ' '   '  , .-.  ' ,\n"
+        h = "  oOO     ,'        ,'         `..   .'         OOo                              ,    ' ()  '  (   ) '  ,\n"
+        i = " oOO  ,- '         :              `-',--.        OOo                            , '  '  '    '  '-'  '   ,\n"
+        j = " oOO. :        _    `-_ _          ,'    `.      OOo                           ,  ' ()   ' o    '  , o  , ,\n"
+        k = " oOO `-`- _-,'   `.       `.       :        `----OOo  >>>>>>>>>>>>>>>>>>>>>>>  , '  '   '  '     ()    '  ,\n"
+        l = " oOO    .'         `.      :       ;             OOo                           ,  '   '  .--.  '   '   o  ,\n"
+        m = " oOO   :             :     :     ,'        ,-.   OOo                            ,   o   |    |  '  o   , ,\n"
+        n = "  oOO   :.           ;     :   ,'       _,'   `-OOo                              , '  ' `.__.'  '   '   ,\n"
+        o = "   oOO    :        ,'      `..'      ,'        OOo                                 , '  '  ,  ' () ' , '\n"
+        p = "    oOO  :      ,'                  :         OOo                                    ' - , _ _ _ , '\n"
+        q = "      oOO`    ,'                     `.     OOo\n"
+        r = "        oOO ,'    . - - - - - - - .    `. OOo\n"
+        s = "           oOO','        (X)        `, OOo\n"
+        t = "               oOO                 OOo\n"
+        u = "                   ooo OOO OOO ooo\n"
+        diagram = [a, b, c ,d ,e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
+        return diagram
 
 title()
-print(diagram("north america"))
